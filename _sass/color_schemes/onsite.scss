@@ -1,36 +1,44 @@
 // OnSite orange theme
 $link-color: #E8620A;
-$btn-primary-color: #E8620A;
-$base-button-color: #E8620A;
 $nav-child-link-color: #E8620A;
 
-$border-color: #f0e0d0;
+// Only colour the primary button — leave secondary/default buttons neutral
+$btn-primary-color: #E8620A;
+$base-button-color: #f3f3f3;
 
-$feedback-color: darken(#E8620A, 10%);
-
-// Sidebar nav active/hover
+// Sidebar nav — orange text only for active item, no background
 .nav-list-link {
   &.active {
+    background-color: transparent !important;
     color: #E8620A !important;
     font-weight: 600;
+    border-left: 3px solid #E8620A;
   }
   &:hover {
     color: #E8620A !important;
+    background-color: rgba(#E8620A, 0.06) !important;
   }
 }
 
-// Buttons
+// Primary button
 .btn-primary {
   background-color: #E8620A !important;
   border-color: #E8620A !important;
+  color: #fff !important;
   &:hover {
-    background-color: darken(#E8620A, 8%) !important;
+    background-color: #c95208 !important;
+    border-color: #c95208 !important;
   }
 }
 
-// Site title / logo area
-.site-title {
-  color: #E8620A !important;
+// Secondary/default button — keep neutral
+.btn:not(.btn-primary) {
+  background-color: #f3f3f3 !important;
+  border-color: #ccc !important;
+  color: #333 !important;
+  &:hover {
+    background-color: #e8e8e8 !important;
+  }
 }
 
 // Search focus
