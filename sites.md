@@ -42,12 +42,12 @@ The site appears in your list immediately.
 
 ## Pinning a site
 
-Pin your most-visited sites so they always appear at the top of the list.
+Pin your most-visited sites so they always appear near the top of the list.
 
-1. Long-press a site in the list, or swipe right on it.
+1. Long-press a site in the list.
 2. Tap **Pin**.
 
-Pinned sites are shown with a **Pinned** indicator and stay at the top regardless of sort order.
+Pinned sites are shown with a pin indicator and appear above unpinned sites.
 
 To unpin, long-press the site and tap **Unpin**.
 
@@ -57,21 +57,20 @@ To unpin, long-press the site and tap **Unpin**.
 
 Archive a site when the work is complete but you want to keep the records.
 
-1. Swipe left on a site in the list.
+1. Swipe right on a site in the list.
 2. Tap **Archive**.
 
 Archived sites are moved out of your main list and are no longer visible in the Schedule tab.
 
 ### Viewing archived sites
 
-1. Tap the **...** or filter menu at the top of the Sites tab.
-2. Select **Archived Sites**.
-3. Use the search bar to find a specific archived site.
+1. Tap the archive icon in the Sites tab toolbar.
+2. Use the search bar to find a specific archived site.
 
 ### Restoring an archived site
 
 1. Open **Archived Sites**.
-2. Swipe left on the site.
+2. Swipe right on the site.
 3. Tap **Restore**.
 
 The site returns to your active list.

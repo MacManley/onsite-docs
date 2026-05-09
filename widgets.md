@@ -1,20 +1,14 @@
 ---
 layout: default
-title: Widgets & Live Activities
+title: Widgets
 nav_order: 11
 ---
 
-# Widgets & Live Activities
+# Widgets
 {: .no_toc }
 
-Put OnSite information on your Home Screen or Lock Screen without opening the app.
+Put OnSite information on your Home Screen without opening the app.
 {: .fs-6 .fw-300 }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
@@ -42,16 +36,5 @@ Widget content updates automatically as you add sites, jobs, and service records
 
 1. Long-press the OnSite widget on your Home Screen.
 2. Tap **Edit Widget**.
-3. Adjust any available options (such as which site or job type to feature).
+3. Adjust any available options.
 4. Tap outside the widget to save.
-
----
-
-## Live Activities
-
-Live Activities show real-time information on your Lock Screen and in the Dynamic Island (on supported devices).
-
-OnSite uses Live Activities to surface active job and site information when you're on site — keeping key details visible without unlocking your phone.
-
-{: .note }
-Live Activities require iOS 16.1 or later and a supported device. They appear automatically based on app activity and cannot be manually triggered.

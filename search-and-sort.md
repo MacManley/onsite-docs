@@ -21,49 +21,53 @@ Find sites quickly and let OnSite automatically match photos or contacts to the 
 ## Searching sites
 
 1. Open the **Sites** tab.
-2. Pull down to reveal the search bar (or tap the search icon).
+2. Tap the search bar at the top.
 3. Type any part of the site name or address — results update as you type.
 
 If no sites match, the list shows **No Matching Sites**.
 
 ### Searching archived sites
 
-1. Open **Archived Sites** from the filter menu.
+1. Tap the archive icon in the Sites tab toolbar to open **Archived Sites**.
 2. Use the **Search archived sites…** bar at the top.
 
 ---
 
-## Sorting sites
+## How sites are ordered
 
-Sites can be sorted in several ways:
+The site list is ordered automatically — there is no manual sort option. The order is always:
 
-| Sort option | Description |
-|---|---|
-| **Pinned** | Pinned sites always appear at the top of the list |
-| **Nearby** | Sites closest to your current GPS location appear first |
-| **Alphabetical** | A–Z by site name |
-
-To change the sort order, tap the sort icon in the Sites tab toolbar.
+1. **Currently on site** — sites you are physically at right now (within your auto-sort radius) float to the top, highlighted.
+2. **Pinned** — pinned sites appear next.
+3. **Alphabetical** — everything else is sorted A–Z by name.
 
 {: .note }
-**Nearby** sort requires location permission. If your precise location is unavailable, nearby sort may not work as expected.
+"Currently on site" detection requires location permission. If location is unavailable, sites sort by pinned then alphabetical.
+
+---
+
+## Filtering by job type
+
+If your sites have jobs assigned, a row of job type chips appears at the top of the list. Tap a chip to show only sites that contain that job type. Tap it again to clear the filter.
+
+You can select multiple job types at once — the list will show sites that have any of the selected types.
 
 ---
 
 ## Auto-Sort (Sort tab)
 
-The **Sort** tab (middle tab in the tab bar) is a powerful tool that uses GPS to match photos or contacts to the right site automatically.
+The **Sort** tab is a tool that uses GPS to match photos or contacts to the right site automatically.
 
 ### Auto-sorting photos
 
-Match photos from your library to sites based on where the photos were taken.
+Match photos from your library to sites based on where they were taken.
 
 1. Open the **Sort** tab.
 2. In the **Photo Auto-Sort** section, tap **Select Photos**.
 3. Choose photos from your library.
 4. Tap **Sort Photos into Sites**.
 
-OnSite compares the GPS coordinates embedded in each photo against your site addresses. Photos taken within your configured **Auto-sort radius** of a site are assigned to that site automatically.
+OnSite compares the GPS coordinates in each photo against your site addresses. Photos taken within your configured **Auto-sort radius** of a site are assigned to that site automatically.
 
 Results show:
 - **Matched** — photos successfully assigned to a site.
@@ -87,7 +91,7 @@ OnSite matches contacts whose address falls within the auto-sort radius of a sit
 
 ## Auto-sort radius
 
-The auto-sort radius controls how close a photo or contact address needs to be to a site to count as a match.
+The auto-sort radius controls how close a photo or contact must be to a site to count as a match.
 
 1. Go to **Settings**.
 2. Under **Location**, adjust the **Auto-sort radius**.
@@ -101,7 +105,7 @@ The radius is shown in meters or feet depending on your **Units** setting (Metri
 Within a site, you can control photo order:
 
 1. Open a site and go to the Photos section.
-2. Tap the **Sort** or filter menu.
+2. Tap the Sort menu.
 3. Choose from:
    - **Upload date (newest)** — most recently added first
    - **Upload date (oldest)** — oldest additions first
