@@ -6,10 +6,9 @@ baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 
-color_scheme: light
+color_scheme: onsite
 
-# Logo & favicon — uncomment and add logo.png to assets/images/ when ready
-# logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.png"
 
 # Search
 search_enabled: true
@@ -25,7 +24,7 @@ search:
 # Aux links in header
 aux_links:
   "App Store":
-    - "https://apps.apple.com/app/onsite"
+    - "https://apps.apple.com/ie/app/onsite-trades/id6761440069"
 
 aux_links_new_tab: true
 

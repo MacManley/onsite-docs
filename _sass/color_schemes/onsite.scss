@@ -1,0 +1,39 @@
+// OnSite orange theme
+$link-color: #E8620A;
+$btn-primary-color: #E8620A;
+$base-button-color: #E8620A;
+$nav-child-link-color: #E8620A;
+
+$border-color: #f0e0d0;
+
+$feedback-color: darken(#E8620A, 10%);
+
+// Sidebar nav active/hover
+.nav-list-link {
+  &.active {
+    color: #E8620A !important;
+    font-weight: 600;
+  }
+  &:hover {
+    color: #E8620A !important;
+  }
+}
+
+// Buttons
+.btn-primary {
+  background-color: #E8620A !important;
+  border-color: #E8620A !important;
+  &:hover {
+    background-color: darken(#E8620A, 8%) !important;
+  }
+}
+
+// Site title / logo area
+.site-title {
+  color: #E8620A !important;
+}
+
+// Search focus
+.search-input:focus {
+  border-color: #E8620A;
+}
