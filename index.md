@@ -11,7 +11,7 @@ The field management app built for tradespeople.
 {: .fs-6 .fw-300 }
 
 [Get Started](getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on App Store](https://apps.apple.com/app/onsite){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on App Store](https://apps.apple.com/ie/app/onsite-trades/id6761440069){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
