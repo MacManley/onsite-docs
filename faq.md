@@ -18,6 +18,24 @@ Answers to common questions and fixes for typical issues.
 
 ---
 
+## Why do my OnSite notifications not work?
+
+This is usually a device-level permissions issue rather than anything wrong with the app itself.
+
+**Step-by-step checklist:**
+1. Go to your device **Settings → OnSite → Notifications** and confirm they are turned **on**.
+2. Check **Notification Style** is not set to **Off** — set it to **Banners** or **Alerts**.
+3. Make sure **Do Not Disturb** or a **Focus** mode isn't blocking OnSite. Go to **Settings → Focus** and check that OnSite is allowed.
+4. For **arrival notifications** specifically, go to **Settings → OnSite → Location** and set it to **Always** — "While Using" is not enough.
+5. Inside OnSite, open the **Notifications** tab and confirm **Site Arrival Notifications** is toggled on and the site is not muted.
+6. Make sure the site has a valid address — OnSite cannot detect arrival at a site with no location set.
+7. Restart the app and, if the issue persists, restart your device.
+
+{: .note }
+If notifications work sometimes but not always, check that Low Power Mode isn't restricting background activity. Go to **Settings → Battery** and turn off **Low Power Mode**.
+
+---
+
 ## My photo date is wrong
 
 **Symptom:** A photo shows the wrong date in OnSite, or sorting by capture date gives unexpected results.
@@ -30,17 +48,16 @@ Answers to common questions and fixes for typical issues.
 
 ---
 
-## Notifications didn't fire
+## The Schedule tab is empty
 
-**Symptom:** You expected an arrival or service notification but it didn't appear.
+**Symptom:** Nothing appears in the Calendar tab even though you have jobs set up.
 
-**Checklist:**
-1. Confirm **Notifications** are enabled for OnSite in **Settings → OnSite → Notifications** on your device.
-2. For arrival notifications, confirm **Site Arrival Notifications** is toggled on in the OnSite **Notifications** tab.
-3. Check the site is not muted in the per-site notification list.
-4. For arrival notifications, go to **Settings → OnSite → Location** and confirm access is set to **Always** (not "While Using").
-5. Make sure the site has a valid address — sites without a location cannot trigger arrival alerts.
-6. If your device was in **Focus** or **Do Not Disturb** mode, notifications may have been silenced at the system level.
+**Cause:** Jobs only appear in the Schedule when they have a **Service Interval** or a **Due Date** set.
+
+**Fix:**
+1. Open the site and tap the job.
+2. Tap **Edit** and set a **Service Interval** (in months) or toggle on a **Due Date**.
+3. Tap **Done** — the job will now appear in the Schedule when it's due.
 
 ---
 
@@ -48,14 +65,25 @@ Answers to common questions and fixes for typical issues.
 
 **Symptom:** A site is missing from your list.
 
-**Possible causes and fixes:**
-
 | Cause | Fix |
 |---|---|
-| Site is archived | Open **Archived Sites** from the filter menu and restore it |
-| Search filter is active | Clear the search bar |
-| Different storage location on this device | Check **Settings → Storage Location** — if you use iCloud, make sure this device is signed into the same Apple ID |
-| iCloud not finished syncing | Wait for the **Waiting for iCloud data to download…** status to clear |
+| Site is archived | Tap the archive icon in the toolbar and restore it |
+| Search or job type filter is active | Clear the search bar and deselect any job type chips |
+| Different storage on this device | Check **Settings → Storage Location** — iCloud requires the same Apple ID on all devices |
+| iCloud not finished syncing | Wait for **Waiting for iCloud data to download…** to clear |
+
+---
+
+## My data isn't syncing to my other device
+
+**Symptom:** Sites, photos, or jobs added on one device don't appear on another.
+
+**Checklist:**
+1. Confirm both devices are using **iCloud Drive** storage — go to **Settings → Storage Location** on each device.
+2. Make sure both devices are signed into the **same Apple ID**.
+3. Check that iCloud Drive is enabled on both devices: **Settings → [Your Name] → iCloud → iCloud Drive**.
+4. Give it a few minutes — large amounts of data (especially photos) can take time to sync over iCloud.
+5. If OnSite shows **Waiting for iCloud data to download…**, the sync is still in progress.
 
 ---
 
@@ -100,8 +128,21 @@ If you're using **On Device** storage, photos and files in OnSite count toward y
 **Cause:** Two sites may be close together and the photo's GPS coordinates fell within range of the wrong one.
 
 **Fix:**
-- Increase site separation or reduce the **Auto-sort radius** in **Settings → Location** to reduce overlap.
-- Move the incorrectly matched photo manually by viewing it in the wrong site and deleting it, then re-adding it to the correct site.
+- Reduce the **Auto-sort radius** in **Settings → Location** to minimise overlap between nearby sites.
+- Move the incorrectly matched photo manually — delete it from the wrong site and re-add it to the correct one.
+
+---
+
+## Auto-Sort isn't matching any of my photos
+
+**Symptom:** All photos come back as **Unmatched** after running Auto-Sort.
+
+**Cause:** Photos must have GPS coordinates embedded in them to be matched. Photos taken with location services disabled, or imported from sources that strip metadata, won't have coordinates.
+
+**Fix:**
+- On your iPhone, go to **Settings → Privacy & Security → Location Services → Camera** and set it to **While Using**.
+- Take new photos with location enabled — they will contain GPS data and can be matched.
+- Photos already taken without GPS cannot be auto-matched and must be added to sites manually.
 
 ---
 
@@ -112,6 +153,26 @@ If you're using **On Device** storage, photos and files in OnSite count toward y
 **Fix:**
 1. Go to **Settings → OnSite → Location** on your device.
 2. Set location access to **Always**.
-3. Make sure **Precise Location** is toggled on (iOS 14+).
+3. Make sure **Precise Location** is toggled on.
 
 If precise location is temporarily unavailable due to system restrictions, it will recover automatically when conditions improve.
+
+---
+
+## How do I remove a contact from a site?
+
+1. Open the site and tap **Edit**.
+2. Find the contact in the Contacts section.
+3. Tap the remove button next to their name.
+4. Tap **Done**.
+
+---
+
+## How do I delete a photo?
+
+1. Open the site and tap the photo to open it in full view.
+2. Tap the **Delete** or trash icon.
+3. Confirm the deletion.
+
+{: .warning }
+Deleted photos cannot be recovered from within OnSite. Make sure you have a copy elsewhere if needed.
