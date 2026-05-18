@@ -24,7 +24,7 @@ This is usually a device-level permissions issue rather than anything wrong with
 
 **Step-by-step checklist:**
 1. Go to your device **Settings → OnSite → Notifications** and confirm they are turned **on**.
-2. Check **Notification Style** is not set to **Off** — set it to **Banners** or **Alerts**.
+2. Check **Notification Style** is not set to **Off**, set it to **Banners** or **Alerts**.
 3. Make sure **Do Not Disturb** or a **Focus** mode isn't blocking OnSite. Go to **Settings → Focus** and check that OnSite is allowed.
 4. For **arrival notifications** specifically, go to **Settings → OnSite → Location** and set it to **Always** — "While Using" is not enough.
 5. Inside OnSite, open the **Notifications** tab and confirm **Site Arrival Notifications** is toggled on and the site is not muted.
@@ -52,12 +52,14 @@ If notifications work sometimes but not always, check that Low Power Mode isn't 
 
 **Symptom:** Nothing appears in the Calendar tab even though you have jobs set up.
 
-**Cause:** Jobs only appear in the Schedule when they have a **Service Interval** or a **Due Date** set.
+**Cause:** Jobs only appear in the schedule list when they have a **Service Interval** set. Due-date-only jobs appear on the calendar grid, not in the SERVICE list.
 
 **Fix:**
 1. Open the site and tap the job.
-2. Tap **Edit** and set a **Service Interval** (in months) or toggle on a **Due Date**.
-3. Tap **Done** — the job will now appear in the Schedule when it's due.
+2. Tap **Edit** and set a **Service Interval** (in months) — the job will appear in the SERVICE list when it's due or overdue.
+
+{: .note }
+If you used a **Due Date** instead of a service interval, open the **Calendar** tab and navigate to the due date. The job appears there as a flag marker, turning red when overdue. Due date jobs do not appear in the SERVICE list.
 
 ---
 
@@ -79,7 +81,7 @@ If notifications work sometimes but not always, check that Low Power Mode isn't 
 **Symptom:** Sites, photos, or jobs added on one device don't appear on another.
 
 **Checklist:**
-1. Confirm both devices are using **iCloud Drive** storage — go to **Settings → Storage Location** on each device.
+1. Confirm both devices are using **iCloud Drive** storage. Go to **Settings → Storage Location** on each device.
 2. Make sure both devices are signed into the **same Apple ID**.
 3. Check that iCloud Drive is enabled on both devices: **Settings → [Your Name] → iCloud → iCloud Drive**.
 4. Give it a few minutes — large amounts of data (especially photos) can take time to sync over iCloud.

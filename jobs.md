@@ -128,12 +128,15 @@ When you mark a job as **Serviced** in the Calendar tab, OnSite calculates the n
 
 ### Due date
 
-A due date is a fixed deadline for a job.
+A due date is a one-time fixed deadline for a job — it does not repeat.
 
 1. Toggle **Due Date** on.
 2. Pick the date from the date picker.
 
-The job then appears in the **Calendar** tab when it's approaching or overdue.
+The job appears as a flag marker on the **calendar grid** on its due date. When the date has passed without the job being completed, the flag turns red and an **Overdue** badge is shown.
+
+{: .note }
+Due date jobs appear on the calendar grid only — they do not appear in the SERVICE list on the schedule tab. If you want a job to show in the SERVICE list and recur automatically, use a **Service Interval** instead.
 
 ### Last service
 

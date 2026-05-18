@@ -91,12 +91,17 @@ OnSite matches contacts whose address falls within the auto-sort radius of a sit
 
 ## Auto-sort radius
 
-The auto-sort radius controls how close a photo or contact must be to a site to count as a match.
+The auto-sort radius controls how close a photo, contact, or your physical location must be to a site to count as a match. It also determines whether you appear **Currently on site** in the site list.
 
-1. Go to **Settings**.
-2. Under **Location**, adjust the **Auto-sort radius**.
+**To adjust the radius:**
 
-The radius is shown in meters or feet depending on your **Units** setting (Metric or Imperial).
+1. Tap the **Settings** tab.
+2. Scroll to the **Location** section.
+3. Drag the **Auto-sort radius** slider to the value you want.
+   - Range: **20 – 2,000 meters** (or feet if Units is set to Imperial).
+   - The current value is shown next to the label (e.g. **100 m** or **328 ft**).
+
+See [Settings → Auto-sort radius](settings#auto-sort-radius) for tips on choosing the right value.
 
 ---
 

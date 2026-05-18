@@ -26,9 +26,9 @@ The schedule is divided into three sections:
 
 | Section | What it shows |
 |---|---|
-| **SERVICE** | Jobs whose service interval has elapsed or is overdue |
-| **INVOICE** | Jobs marked complete where an invoice is due |
-| **COMING UP** | Services and invoices due within the next few days |
+| **SERVICE** | Jobs that are overdue or whose next service is within 7 days |
+| **INVOICE** | Completed jobs where an invoice reminder is overdue or due within 7 days |
+| **COMING UP** | Services due 8–30 days out, and invoices due more than 7 days out |
 
 If nothing is due, the tab shows **All Caught Up** with the message **No services or invoices are currently due**.
 
@@ -99,4 +99,9 @@ The invoice delay controls how long after completing a job before an invoice rem
 
 ## Coming Up section
 
-The **COMING UP** section shows services and invoices that are not yet due but are approaching. This gives you advance notice so you can plan ahead.
+The **COMING UP** section gives you advance notice of work that isn't urgent yet:
+
+- **Services** due in 8–30 days
+- **Invoices** whose reminder date is more than 7 days away
+
+Items here are dimmed compared to the SERVICE and INVOICE sections to indicate they don't need immediate action.

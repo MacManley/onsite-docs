@@ -55,10 +55,33 @@ This affects the auto-sort radius display and any distance-based features.
 
 ## Location
 
-| Setting | Description |
+### Auto-sort radius
+
+The auto-sort radius controls how close a photo, contact, or your physical location must be to a site to count as a match. It affects:
+
+- **Photo auto-sort** — photos taken within this distance are assigned to the site.
+- **Contact auto-sort** — contacts whose address falls within this distance are matched.
+- **Currently on site** — sites you are physically within this distance of float to the top of the site list, highlighted.
+
+**To adjust the radius:**
+
+1. Tap the **Settings** tab.
+2. Scroll to the **Location** section.
+3. Drag the **Auto-sort radius** slider left (smaller) or right (larger).
+   - Range: **20 – 2,000 meters** (or the equivalent in feet if Units is set to Imperial).
+   - The current value is shown to the right of the label (e.g. **100 m** or **328 ft**).
+
+The radius is displayed in meters or feet based on your **Units** setting.
+
+{: .note }
+A smaller radius (e.g. 50 m) gives more precise matching but may miss photos or contacts that are slightly off. A larger radius (e.g. 500 m) is more forgiving but can produce false matches in dense areas.
+
+### Precise Location
+
+| Status | Meaning |
 |---|---|
-| **Auto-sort radius** | How close a photo or contact must be to a site to be auto-matched (meters or feet) |
-| **Precise Location** | Shows whether iOS has granted precise GPS access to OnSite |
+| **Available** | iOS has granted precise GPS access — all location features work normally |
+| **Unavailable** | Precise location is off or temporarily unavailable |
 
 If **Precise Location** shows **Unavailable**, go to **Settings → OnSite → Location** on your device and enable precise location. Site detection and nearby sorting may be affected without it.
 
@@ -88,7 +111,10 @@ Set how long after a job completion before an invoice reminder appears.
 
 ## Notifications
 
-Links to **Manage Notifications** — the same screen as the Notifications tab where you control site arrival alerts and per-site muting.
+| Setting | Description |
+|---|---|
+| **Notification Time** | The time of day OnSite sends scheduled job reminders. Tap the time to open the picker and choose any hour and minute. |
+| **Manage Notifications** | Opens the full notifications screen where you control site arrival alerts and per-site muting — the same screen as the Notifications tab. |
 
 ---
 
@@ -130,10 +156,18 @@ When using iCloud, app settings (invoice delay, units, calendar preferences) are
 
 ---
 
+## What's New
+
+Tap **What's New** to view a summary of recent updates and feature additions. This is the same content shown on first launch after an update.
+
+---
+
 ## Support
 
 | Action | Description |
 |---|---|
+| **Contact Support** | Opens a contact form on the OnSite website to send a message to the developer |
+| **Documentation** | Opens this documentation site in your browser |
 | **Rate the App** | Opens the App Store review prompt |
 | **Share** | Share a link to OnSite with someone |
 

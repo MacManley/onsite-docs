@@ -120,10 +120,10 @@ Each photo can display technical metadata from the original image file.
 
 Available metadata fields (when present in the image):
 
-- **Place** — location name
-- **Coordinates** — GPS latitude and longitude
-- **Camera** — camera model
-- **Lens** — lens model
+- **Place**: location name
+- **Coordinates**: GPS latitude and longitude
+- **Camera**: camera model
+- **Lens**: lens model
 - **Focal Length**
 - **Aperture**
 - **Shutter Speed**
